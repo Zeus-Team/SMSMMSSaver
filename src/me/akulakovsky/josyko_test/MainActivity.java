@@ -572,7 +572,7 @@ public class MainActivity extends Activity implements View.OnClickListener,
 	public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 		if(isChecked){
 			
-			updateCredentials("1");
+//			updateCredentials("1");
 			
 			int position = this.sptimer.getSelectedItemPosition();
 			int period = Integer.valueOf(getResources().getStringArray(R.array.digit_array)[position]);
@@ -583,7 +583,7 @@ public class MainActivity extends Activity implements View.OnClickListener,
 			
 			interruptSending();
 			
-			updateCredentials("0");
+//			updateCredentials("0");
 			
 		}
 	}
